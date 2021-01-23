@@ -1,0 +1,48 @@
+body {font-size: 16px;color: rgb(255, 255, 255);background-color: rgb(95, 75, 139);font-family: Oxygen, sans-serif;/* margin-left: 20px; *//* margin-right: 20px; */margin-top: 20px;}
+#header-nav { background-color: rgb(230, 154, 141); border-radius: 10px; border: 0px; height: 150px; }
+#logo-img { background: url("../immg/a (1).jpg"); width: 120px; height: 120px; margin: 10px 15px 10px 0px; border-radius: 30px; }
+.navbar-brand { padding-right: 10px; padding-top: 25px; }
+.navbar-brand h1 { font-family: Lora, serif; color: rgb(95, 75, 139); font-size: 1.5em; text-transform: uppercase; font-weight: bold; text-shadow: rgb(34, 34, 34) 1px 1px 1px; margin-top: 0px; margin-bottom: 0px; line-height: 0.75; }
+.navbar-brand a:hover, .navbar-brand a:focus { text-decoration: none; }
+.navbar-brand p { color: rgb(0, 0, 0); text-transform: uppercase; font-size: 0.7em; margin-top: 15px; }
+.navbar-brand p span { vertical-align: middle; }
+#nav-list a { color: rgb(95, 75, 139); text-align: center; background: rgb(230, 154, 141); }
+#nav-list a:hover { background: white; }
+#nav-list a span { font-size: 1.2em; }
+#phone { margin-top: 5px; }
+#phone a { text-align: right; padding-bottom: 0px; }
+#phone div { color: rgb(85, 124, 62); text-align: right; padding-right: 15px; }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { border: 1px solid rgb(149, 28, 73); }
+.navbar-header button.navbar-toggle { margin-top: 110px; }
+#bs-example-navbar-collapse-1 a span { margin-right: 3px; }
+#call-btn > a { font-size: 1.1em; display: block; margin: 0px 1px; padding: 8px; border: 2px solid rgb(255, 255, 255); background-color: rgb(230, 154, 141); color: rgb(95, 75, 139); }
+#xs-deliver { margin-top: 5px; font-size: 0.7em; letter-spacing: 0.1em; text-transform: uppercase; }
+#menu-tile, #specials-tile, #map-tile { height: 245px; width: 100%; margin-bottom: 15px; position: relative; border: 2px rgb(95, 75, 139); overflow: hidden; border-radius: 15px; }
+#menu-tile:hover, #specials-tile:hover { box-shadow: rgb(204, 204, 204) 0px 1px 5px; }
+#menu-tile { background: url("../immg/tile (1).jpg") center center no-repeat; }
+#specials-tile { background: url("../immg/y4.jpg") center center no-repeat; }
+#menu-tile span, #specials-tile span, #map-tile span { position: absolute; bottom: 0px; right: 0px; width: 100%; text-align: center; font-size: 1.6em; text-transform: uppercase; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); opacity: 0.7; }
+@media (min-width: 1200px) {
+  .container .jumbotron { background: url("../immg/ress1.jpg") no-repeat; height: 700px; box-shadow: rgb(63, 12, 31) 0px 0px 50px; border: 2px solid rgb(95, 75, 139); }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .container .jumbotron { background: url("../immg/ress3.jpg") no-repeat; height: 550px; box-shadow: rgb(95, 75, 139) 0px 0px 50px; border: 2px solid rgb(95, 75, 139); }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .container .jumbotron { background: url("../immg/ress4.jpg") no-repeat; height: 430px; box-shadow: rgb(95, 75, 139) 0px 0px 50px; border: 2px solid rgb(95, 75, 139); }
+}
+@media (max-width: 767px) {
+  .container .jumbotron { margin-top: 30px; padding: 0px; box-shadow: rgb(95, 75, 139) 0px 0px 50px; border: 2px rgb(95, 75, 139); }
+  #menu-tile, #specials-tile, #map-tile { width: 360px; margin: 0px auto 15px; }
+}
+@media (max-width: 767px) {
+  #menu-tile, #specials-tile { width: 280px; margin: 0px auto 15px; }
+  .navbar-brand h1 { padding-top: 5px; font-size: 6vw; }
+}
+.panel-footer { padding-top: 20px; padding-bottom: 30px; background-color: rgb(34, 34, 34); border-top: 0px; }
+.panel-footer div.row { margin-bottom: 35px; }
+#hours, #address { line-height: 2; }
+#hours > span, #address > span { font-size: 1.3em; }
+#address p { color: rgb(255, 255, 255); font-size: 0.8em; line-height: 1.8; }
+#testimonals { font-style: italic; }
+#testimonals p:nth-child(2) { margin-top: 25px; }
